@@ -12,4 +12,4 @@ class TransliterateCommand(sublime_plugin.TextCommand):
     for region in self.view.sel():
       content = self.view.substr(region)
 
-      self.view.replace(edit, region, strip_accents(remove_nonword_chars(content)).lower())
+      self.view.replace(edit, region, remove_nonword_chars(strip_accents(content)).lower())

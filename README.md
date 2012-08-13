@@ -4,8 +4,8 @@ Converts the source text with accents and non-word characters into a lowercase, 
 
 ## Examples
 
-`Lorem ipsum dolor sit amet` -> `lorem_ipsum_dolor_sit_amet`
-`Árvíztűrő tükörfúrógép` -> `arvizturo_tukorfurogep`
+    Lorem ipsum dolor sit amet -> lorem_ipsum_dolor_sit_amet
+    Árvíztűrő tükörfúrógép -> arvizturo_tukorfurogep
 
 I's useful to create proper labels within in Ruby on Rails fixtures.
 
