@@ -1,6 +1,6 @@
-# Transliterate for Sublime Text 2
+# snake_case for Sublime Text 2
 
-Converts the source text with accents and non-word characters into a lowercase, "source code friendy" representation.
+Converts the source text with accents and non-word characters into a lowercase, "source code friendy" snake_case representation.
 
 ## Examples
 
@@ -14,7 +14,7 @@ I's useful to create proper labels within in Ruby on Rails fixtures.
     fullname: John Appleseed
     username: john
 
-Copy the `John Appleseed` text and paste it above the fullname line. Select the text and press Ctrl+Shift+- or select Edit/Convert Case/Transliterate:
+Copy the `John Appleseed` text and paste it above the fullname line. Select the text and press Ctrl+Shift+- or select Edit/Convert Case/snake_case:
 
     john_appleseed:
       fullname: John Appleseed

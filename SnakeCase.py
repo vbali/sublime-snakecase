@@ -6,7 +6,7 @@ def strip_accents(s):
 def remove_nonword_chars(s):
   return re.sub('[\W]+', '_', re.sub('[\_]{2,}', '', s))
 
-class TransliterateCommand(sublime_plugin.TextCommand):
+class SnakeCaseCommand(sublime_plugin.TextCommand):
 
   def run(self, edit):
     for region in self.view.sel():
