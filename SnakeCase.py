@@ -1,4 +1,6 @@
-import sublime, sublime_plugin, unicodedata, re, string
+import sublime, sublime_plugin, re, string, sys, os
+sys.path.insert(0, os.path.dirname(sys.executable))
+import unicodedata
 
 def strip_accents(s):
   return ''.join((c for c in unicodedata.normalize('NFD', unicode(s)) if unicodedata.category(c) != 'Mn'))
